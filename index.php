@@ -22,7 +22,7 @@ die;
     <title>SLChat</title>
 </head>
 <body>
-    <div class="hello">Hi, <?=$userName?></div>
+    <div class="hello"><p class=>Привет, <?=$userName?>!<br>Ты находишся на сайте SLChat!<br>Добро пожаловать!</div>
     <form action="/" method="post">
         <button name="logout" value="3">Выйти</button>
     </form>
